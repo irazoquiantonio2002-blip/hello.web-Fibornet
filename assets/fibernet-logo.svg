@@ -1,0 +1,14 @@
+<svg width="760" height="190" viewBox="0 0 760 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FIBERNET</title>
+  <desc id="desc">Logo transparente de FIBERNET con simbolo de conexion inalambrica y lema La velocidad en tus manos.</desc>
+  <g transform="translate(8 24)">
+    <path d="M248 28C273 6 312 6 337 28" stroke="#f36b0b" stroke-width="12" stroke-linecap="round"/>
+    <path d="M269 53C282 43 303 43 316 53" stroke="#f36b0b" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="293" cy="83" r="9" fill="#f36b0b"/>
+    <text x="0" y="122" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="900" letter-spacing="-2" fill="#2b2f33">FIBER</text>
+    <text x="392" y="122" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="900" letter-spacing="-2" fill="#f36b0b">NET</text>
+    <circle cx="293" cy="86" r="18" fill="#0f8f86"/>
+    <path d="M285 86h-17m17 0c0-10 8-18 18-18h8m-26 18c0 10 8 18 18 18h8" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <text x="385" y="162" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="5" fill="#0f8f86">LA VELOCIDAD EN TUS MANOS</text>
+  </g>
+</svg>
