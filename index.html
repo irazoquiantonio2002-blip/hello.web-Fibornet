@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIBERNET | Internet de fibra optica en Jalpa de Mendez</title>
+  <meta name="description" content="FIBERNET ofrece internet 100% fibra optica para hogares y negocios en Jalpa de Mendez, con instalacion inmediata y planes desde 100 Mb hasta 300 Mb.">
+  <meta name="keywords" content="FIBERNET, internet fibra optica, Jalpa de Mendez, internet para hogar, internet para negocios, instalacion inmediata">
+  <meta property="og:title" content="FIBERNET | La velocidad en tus manos">
+  <meta property="og:description" content="Internet 100% fibra optica con planes para hogar, familia, streaming, trabajo y negocios.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="AC1AFFD4788AC75371537F5EB8876928.jpeg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Conectando...</span>
+  </div>
+
+  <!-- NAVBAR -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="FIBERNET - inicio">
+          <img src="assets/fibernet-logo.svg" alt="Logo FIBERNET" class="nav-logo-img">
+        </a>
+
+        <nav aria-label="Navegacion principal">
+          <ul class="nav-links">
+            <li><a href="#why">Ventajas</a></li>
+            <li><a href="#ambientes">Usos</a></li>
+            <li><a href="#proceso">Instalacion</a></li>
+            <li><a href="#producto">Planes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Ver planes
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menu movil">
+      <a href="#why">Ventajas</a>
+      <a href="#ambientes">Usos</a>
+      <a href="#proceso">Instalacion</a>
+      <a href="#producto">Planes</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Solicitar servicio -></a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            100% fibra optica - Instalacion inmediata
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>La velocidad</span></span>
+            <span class="line"><span>en tus</span></span>
+            <span class="line"><span class="accent">manos.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            Internet de fibra optica para hogares y negocios que necesitan una conexion rapida, estable y lista para trabajar, estudiar, jugar y disfrutar sin interrupciones.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#producto" class="btn-gold">
+              Elegir mi plan
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1FAkHTirVK/" target="_blank" rel="noopener noreferrer" class="btn-outline">
+              <i class="fa-brands fa-facebook-f" style="font-size:15px; color:var(--text);"></i>
+              Contactar por Facebook
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-wifi"></i>
+              Fibra optica
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-gauge-high"></i>
+              Hasta 300 Mb
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Jalpa de Mendez
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- WHY - Features -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por que FIBERNET</div>
+            <h2 class="why-quote" id="why-heading">
+              Tu internet debe sentirse rapido desde el primer clic,
+              <em> no solo verse bien en un anuncio.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            FIBERNET esta enfocado en brindar una experiencia de navegacion fluida y confiable para familias, personas que trabajan desde casa y negocios que dependen de estar siempre conectados.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3>Instalacion inmediata</h3>
+            <p>Atencion pensada para que pases de preguntar por tu servicio a conectarte en el menor tiempo posible.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-house-signal"></i>
+            </div>
+            <h3>Hogares conectados</h3>
+            <p>Planes para streaming, clases en linea, videollamadas, redes sociales y varios dispositivos al mismo tiempo.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3>Internet para negocios</h3>
+            <p>Conexion confiable para operaciones diarias, cobros digitales, comunicacion con clientes y trabajo en la nube.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3>Planes flexibles</h3>
+            <p>Opciones desde 100 Mb hasta 300 Mb para elegir la velocidad que mejor se adapta a tu forma de navegar.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AMBIENTES - Usos -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="section-bg section-bg-home" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Escenarios de uso</div>
+            <h2 class="section-title" id="amb-heading">
+              Una conexion para cada forma<br>
+              <span class="gold">de vivir internet</span>
+            </h2>
+            <p style="color:var(--muted); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Elige un plan segun tus rutinas: entretenimiento, trabajo, estudio, negocio o uso intensivo.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Sin quedarte fuera de linea</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1400&auto=format&fit=crop"
+              alt="Familia usando internet de fibra optica en casa">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <h3>Para el hogar</h3>
+              <p>Redes sociales, tareas, musica y video con una experiencia mas fluida para todos.</p>
+              <div class="amb-temp">Uso diario - Plan Basico o Familiar</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"
+              alt="Persona trabajando con laptop y videollamadas gracias a internet estable">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h3>Trabajo y estudio</h3>
+              <p>Videollamadas, plataformas en la nube y clases en linea con menos cortes y mas estabilidad.</p>
+              <div class="amb-temp">Productividad - Plan Premium</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1400&auto=format&fit=crop"
+              alt="Equipos de red para conexion de fibra optica en negocio">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-store"></i>
+              </div>
+              <h3>Negocios conectados</h3>
+              <p>Internet para ventas, comunicacion, administracion y atencion al cliente durante toda la jornada.</p>
+              <div class="amb-temp">Alto uso - Plan Ilimitado</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO - How we work -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Instalacion</div>
+          <h2 class="section-title" id="proceso-heading">
+            Conectarte debe ser <span class="gold">simple y rapido</span>
+          </h2>
+          <p>FIBERNET prioriza una atencion clara: eliges tu plan, confirmas disponibilidad y coordinas tu instalacion.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Consulta tu zona</h3>
+            <p>Escribenos para revisar disponibilidad de servicio de fibra optica en tu hogar o negocio.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Elige tu velocidad</h3>
+            <p>Selecciona entre planes de 100, 150, 200 o 300 Mb segun tus dispositivos y necesidades.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Agenda la instalacion</h3>
+            <p>Coordinamos el servicio para que empieces a navegar con una conexion rapida y confiable.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTO ESTRELLA -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <div class="reveal">
+            <div class="label">Planes FIBERNET</div>
+            <h2 class="section-title" id="prod-heading">
+              Elige la velocidad que va<br>
+              <span class="gold">con tu ritmo diario</span>
+            </h2>
+            <p class="producto-lead">
+              Planes publicados por FIBERNET para contratar internet 100% fibra optica, con opciones para uso basico, familiar, premium e ilimitado.
+            </p>
+
+            <ul class="feature-rows" aria-label="Planes de internet FIBERNET">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-signal"></i></div>
+                <div>
+                  <h4>Basico - hasta 100 Mb</h4>
+                  <p>$350 al mes. Ideal para navegacion cotidiana, redes sociales y contenido en linea.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-house-user"></i></div>
+                <div>
+                  <h4>Familiar - hasta 150 Mb</h4>
+                  <p>$400 al mes. Pensado para varios usuarios conectados al mismo tiempo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-gauge-high"></i></div>
+                <div>
+                  <h4>Premium - hasta 200 Mb</h4>
+                  <p>$450 al mes. Mas velocidad para streaming, trabajo remoto y clases en linea.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-infinity"></i></div>
+                <div>
+                  <h4>Ilimitado - hasta 300 Mb</h4>
+                  <p>$500 al mes. La opcion mas potente para uso intensivo en casa o negocio.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Resumen de planes">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100%</span>
+                <span class="spec-name">Fibra optica</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">4</span>
+                <span class="spec-name">Planes</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100-300</span>
+                <span class="spec-name">Mb</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">$350+</span>
+                <span class="spec-name">Desde</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <img class="plan-art"
+                   src="AC4C4E1E8C294486411B0B560A83E9B4.jpeg"
+                   alt="Promocional FIBERNET con instalacion inmediata y planes de internet de fibra optica">
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Instalacion inmediata
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-bolt" style="color:var(--gold);"></i>
+                Hasta 300 Mb
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" aria-label="Datos clave">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100 por ciento fibra optica">0</div>
+            <div class="stat-lbl">Fibra optica<br>para tu conexion</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="300" data-suffix=" Mb"
+                 aria-label="Hasta 300 megas">0</div>
+            <div class="stat-lbl">Velocidad<br>disponible</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="4" data-suffix=""
+                 aria-label="4 planes">0</div>
+            <div class="stat-lbl">Planes<br>publicados</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="350" data-prefix="$"
+                 aria-label="Desde 350 pesos">0</div>
+            <div class="stat-lbl">Precio mensual<br>desde</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTORES -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="section-bg section-bg-business" aria-hidden="true"></div>
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Quien lo aprovecha</div>
+          <h2 class="section-title" id="sec-heading">
+            Internet para <span class="gold">cada necesidad</span>
+          </h2>
+          <p>Una conexion estable cambia la forma en que estudias, trabajas, vendes y disfrutas tu tiempo en linea.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Hogares</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-users sector-icon" aria-hidden="true"></i>
+            <h3>Familias</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-laptop-code sector-icon" aria-hidden="true"></i>
+            <h3>Home office</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-store sector-icon" aria-hidden="true"></i>
+            <h3>Negocios</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-gamepad sector-icon" aria-hidden="true"></i>
+            <h3>Streaming y gaming</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Listo para sentir <span class="gold">la velocidad en tus manos?</span>
+          </h2>
+          <p>Solicita informacion, revisa disponibilidad y confirma el plan ideal directamente con FIBERNET.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <div class="contact-info">
+            <h3>Atencion FIBERNET</h3>
+            <p class="ci-sub">El mejor servicio de internet de fibra optica hasta tu hogar.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Zona de atencion</h4>
+                  <p>Jalpa de Mendez.<br>
+                     Confirma cobertura por Facebook antes de contratar.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Facebook</h4>
+                  <p>Consulta planes, disponibilidad e instalacion inmediata.</p>
+                  <a href="https://www.facebook.com/share/1FAkHTirVK/" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir pagina ->
+                  </a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Servicio</h4>
+                  <p>Proveedor de servicios de internet con planes de fibra optica para casa y negocio.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar informacion</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">Plan de interes</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Basico - hasta 100 Mb</option>
+                    <option>Familiar - hasta 150 Mb</option>
+                    <option>Premium - hasta 200 Mb</option>
+                    <option>Ilimitado - hasta 300 Mb</option>
+                    <option>Quiero que me recomienden un plan</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del servicio</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Cuantos dispositivos usas, colonia o zona, y si es para casa o negocio."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-facebook-messenger"></i>
+                Preparar solicitud
+              </button>
+              <p class="form-note">
+                Al enviar se abrira la pagina de Facebook de FIBERNET para continuar la conversacion.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="assets/fibernet-logo.svg" alt="Logo FIBERNET" class="footer-logo-img">
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> FIBERNET. Todos los derechos reservados. La velocidad en tus manos.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/share/1FAkHTirVK/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Facebook de FIBERNET">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING FACEBOOK -->
+  <a href="https://www.facebook.com/share/1FAkHTirVK/"
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar a FIBERNET por Facebook">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
